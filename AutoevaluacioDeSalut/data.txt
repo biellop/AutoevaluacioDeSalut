@@ -1,0 +1,4 @@
+proba,2024-05-17,5,5,Llet;null;Pasta;Fruita;Vegetals;Llegums;null;Alcohol;null
+prueba,2024-05-17,3,3,null;null;Pasta;null;Vegetals;null;Aigua;null;null
+hola,2024-05-17,2,2,Llet;null;null;Fruita;Vegetals;null;Aigua;null;Sucs
+proba,2024-05-17,2,2,Llet;null;Pasta;null;Vegetals;null;Aigua;null;null

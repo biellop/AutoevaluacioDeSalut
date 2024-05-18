@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autoevaluaciodesalut.HelloController">
+   <children>
+      <Label text="Autoavaluació de Salut" />
+      <TextField fx:id="nameField" promptText="Nom" />
+      <TextField fx:id="dateField" promptText="Data (YYYY-MM-DD)" />
+      <TextField fx:id="moodField" promptText="Estat d'ànim (0-5)" />
+      <TextField fx:id="physicalConditionField" promptText="Estat físic (0-5)" />
+      <Label text="Aliments consumits:" />
+      <CheckBox fx:id="milkCheckBox" text="Llet" />
+      <CheckBox fx:id="cerealCheckBox" text="Cereals" />
+      <CheckBox fx:id="pastaCheckBox" text="Pasta" />
+      <CheckBox fx:id="fruitCheckBox" text="Fruita" />
+      <CheckBox fx:id="vegetablesCheckBox" text="Vegetals" />
+      <CheckBox fx:id="legumesCheckBox" text="Llegums" />
+      <CheckBox fx:id="waterCheckBox" text="Aigua" />
+      <CheckBox fx:id="alcoholCheckBox" text="Alcohol" />
+      <CheckBox fx:id="juiceCheckBox" text="Sucs" />
+      <Button mnemonicParsing="false" onAction="#addData" text="Afegir dades" />
+      <Button mnemonicParsing="false" onAction="#showStatistics" text="Veure estadístiques" />
+      <Label fx:id="welcomeText" />
+   </children>
+   <padding>
+      <Insets top="20" right="20" bottom="20" left="20"/>
+   </padding>
+</VBox>
